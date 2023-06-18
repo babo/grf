@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+influxdb-client = "*"
+python-dotenv = "*"
+requests = "*"
+
+[dev-packages]
+jupyter = "*"
+black = {extras = ["jupyter"], version = "*"}
+
+[requires]
+python_version = "3.11"

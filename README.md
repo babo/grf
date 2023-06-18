@@ -22,9 +22,7 @@ Here is a quick summary of the action, using ubuntu:jammy as an example
 
     ```mkdir -p ~babo/.ssh && touch ~babo/.ssh/authorized_keys```
 
-6. Ask for a public ssh key, here is mine (note, this is a single line)
-
-    ```ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQDCX2cXpK3c2F1UemVLo2UOC1T9DmMYh75JOnYtKVM7NwidXlI3iH2yl9qkissiK/RkDA5V0hJlSZousQ12JCHWr+Snsd5mdZShz86KsI6BDVWGIn0LTfUIQcBhOMwh3XiwHeF4fwTR9CJ4/jIISmCVi5V37uXdACJdeC9vNCaHOT30GJqbUcaGxqZ6IiQ2bIJL/sm96Oc3Qpp98ZabEIgrWnJQOBfyyu2dFSIaqTMiEtSMuZPlFWi4PgD/vuZLDNojk+3w1n5v+EONGoXMKprAdxRGMUoWVmCkZwcT0By4sd3gjzKCuLDoYBGVBs3M3cBQ1X+6QScnLJvVcN2hx3XSU7ZGeu5jT0MDA+qDIECtHFTh3rvUsDAgxI/LmxwcTb2FRtOPMPkXCajDdhMx685FSNjH/KJgcNHmuqF+EocfLHPndjRJ1D/j49tjEJe8IBiXStURqMP93rM3trYH/FV+SKr54W1+PRFiY1ZlZ3eMxGyLYpvqcwNi7Oxm8/9MLoEkRJBthQ12ZxWh2voTYNV6XlrnXuOLkhnwBLBcV+VIe/7Ue9kMcCBp5iN7UijPeaXun+tpjY0wls57leIh3MEtOQsa/sALvuurWMHnkC7qUhYPwuoOW76b1NbHH8I3p9QCDtI+LpTf/nfbETnSHfWkyR2HE9wzz8Aaar+aPWNYJw== attila.babo@gmail.com```
+6. Ask for a public ssh key
 
 7. Copy that public key into authorized_keys. This command will wait until you copy-paste the key and press Ctrl+D after that:
 
