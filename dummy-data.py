@@ -18,7 +18,7 @@ def main():
     write_client = influxdb_client.InfluxDBClient(url=url, token=token, org=org)
     write_api = write_client.write_api(write_options=SYNCHRONOUS)
 
-    for _ in range(4):
+    for _ in range(2):
         point = influxdb_client.Point("measurement1") \
             .tag("tagname1", "tagvalue1") \
             .field("field_a", random.gauss(40, 8)) \

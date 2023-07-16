@@ -1,0 +1,6 @@
+SHELL=$(which bash)
+PATH=$(echo $PATH)
+MAILTO=$(whoami)
+HOME=$(echo $HOME)
+* * * * * $(pwd)/cronjob.sh $(pwd)/dummy-data.py>/dev/null 2>&1
+19 * * * * $(pwd)/cronjob.sh $(pwd)/weather.py>/dev/null 2>&1
