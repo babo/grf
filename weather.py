@@ -9,7 +9,7 @@ import requests
 
 from influxdb_client.client.write_api import SYNCHRONOUS
 
-cities = [("Holmestrand", 59.477110, 10.319426), ("Telki", 47.545134, 18.834282), ("Yokahama", 35.455445, 139.638240)]
+cities = [("Holmestrand", 59.477110, 10.319426), ("Telki", 47.545134, 18.834282), ("Yokohama", 35.455445, 139.638240)]
 
 
 def get_weather(latitude, longitude):
